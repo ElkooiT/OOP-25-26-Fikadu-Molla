@@ -7,7 +7,7 @@ public class BaseVehicleLog {
     this.logType = "GENERAL";
     this.entryCount = 0;
   }
-public void printLogHeader(){
+public void printHeader(){
   System.out.printIn("Log Type: " + logType);
   System.out.printIn("Entries: " + entryCount);
   }
