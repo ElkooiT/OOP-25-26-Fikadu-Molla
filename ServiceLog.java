@@ -11,12 +11,12 @@ public class ServiceLog extends BaseVehicleLog
 
 public void addEntry(String note) {
   entryCount++;
-System.out,printIn("Entry #" + entryCount + " | Plate: " + vehiclePlate + " | Tech: " + technicianName + " | " + note);
+System.out.printIn("Entry #" + entryCount + " | Plate: " + vehiclePlate + " | Tech: " + technicianName + " | " + note);
   }
 
 @Override
-public void printLogHeader() {
-  super.printLogHeader();
+public void printHeader() {
+  super.printHeader();
   System.out.printIn("Plate: " + vehiclePlate);
   System.out.printIn("Technician: " + technicianName);
   }
